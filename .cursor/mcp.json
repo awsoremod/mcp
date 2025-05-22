@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+      "awmcp": {
+        "command": "./mcp",
+        "args": ["stdio"],
+        "env": {
+          "AI_API_KEY": "<code>",
+          "AI_URL_API": "https://openrouter.ai/api/v1",
+          "AI_MODEL": "deepseek/deepseek-r1-distill-qwen-32b:free"
+        }
+      }
+    }
+}
